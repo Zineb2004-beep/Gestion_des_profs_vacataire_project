@@ -1,4 +1,3 @@
-
 -- Base de données : `gestiondesprofsvacataires`
 
 -- Structure de la table `affectaioncours`
