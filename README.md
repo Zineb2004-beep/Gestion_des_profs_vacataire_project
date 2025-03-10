@@ -31,9 +31,9 @@ CREATE TABLE `professeur` (
   `nom` varchar(30) NOT NULL,
   `prenom` varchar(30) NOT NULL,
   `specialite` varchar(30) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+);
 
---
+-- --------------------------------------------------------
 -- Index pour les tables déchargées
 
 -- Index pour la table `affectaioncours`
@@ -42,13 +42,14 @@ ALTER TABLE `affectaioncours`
   ADD KEY `professeur_fk_1` (`prof_id`),
   ADD KEY `cours_fk_1` (`cour_id`);
 
+-- --------------------------------------------------------
 
 -- Index pour la table `cours`
 
 ALTER TABLE `cours`
   ADD PRIMARY KEY (`id_Cour`),
   ADD UNIQUE KEY `id_Cour` (`id_Cour`);
-
+-- --------------------------------------------------------
 
 -- Index pour la table `professeur`
 
@@ -56,6 +57,7 @@ ALTER TABLE `professeur`
   ADD PRIMARY KEY (`id_Prof`),
   ADD UNIQUE KEY `id_Prof` (`id_Prof`);
 
+-- --------------------------------------------------------
 
 -- Contraintes pour les tables déchargées
 
