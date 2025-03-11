@@ -1,37 +1,33 @@
-la creation de la base de donnees:
+Projet de gestion des professeurs vacataires avec JAVA :
 
-CREATE TABLE `cours` (
-  `id_Cour` int(11) NOT NULL,
-  `intitule` varchar(40) NOT NULL,
-  `salle` varchar(30) NOT NULL
+Professeur (id, nom, prénom, spécialité)
+Cours (id, intitule, salle)
+AffectationCours (professeur_id, cours_id)
+Fonctionnalités : 
+-Ajouter un professeur
+-Affecter un cours à un professeur
+-Filtrer par spécialité
+-Rechercher un professeur par nom
+
+La base de donnees avec MySQL:
+__La table Cours:
+CREATE TABLE Cours (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    intitule VARCHAR(25) NOT NULL,
+    salle VARCHAR(25) NOT NULL
 );
-
-CREATE TABLE `professeur` (
-  `id_Prof` int(11) NOT NULL,
-  `nom` varchar(30) NOT NULL,
-  `prenom` varchar(30) NOT NULL,
-  `specialite` varchar(30) NOT NULL
+__La table Professeur:
+CREATE TABLE Professeur (
+id INT AUTO_INCREMENT PRIMARY KEY, 
+nom VARCHAR(25) NOT NULL, 
+prenom VARCHAR(25) NOT NULL, 
+specialite VARCHAR(25) NOT NULL
+); 
+__La table AffectationCours:
+CREATE TABLE AffectationCours (
+    professeur_id INT NOT NULL,
+    cours_id INT NOT NULL,
+    PRIMARY KEY (professeur_id, cours_id),
+    FOREIGN KEY (professeur_id) REFERENCES Professeur(id) ON DELETE CASCADE,
+    FOREIGN KEY (cours_id) REFERENCES Cours(id) ON DELETE CASCADE
 );
-
-CREATE TABLE `affectationcours` (
-  `prof_id` int(11) NOT NULL,
-  `cour_id` int(11) NOT NULL
-);
-ALTER TABLE `affectationcours`
-  ADD PRIMARY KEY (`prof_id`,`cour_id`),
-  ADD CONSTRAINT `cours_fk_1` FOREIGN KEY (`cour_id`) REFERENCES `cours` (`id_Cour`) ON DELETE CASCADE ON UPDATE CASCADE,
-  ADD CONSTRAINT `professeur_fk_1` FOREIGN KEY (`prof_id`) REFERENCES `professeur` (`id_Prof`) ON DELETE CASCADE ON UPDATE CASCADE;
-
-ALTER TABLE `cours`
-  ADD PRIMARY KEY (`id_Cour`),
-  ADD UNIQUE KEY `id_Cour` (`id_Cour`);
-
-ALTER TABLE `professeur`
-  ADD PRIMARY KEY (`id_Prof`),
-  ADD UNIQUE KEY `id_Prof` (`id_Prof`);
-
-ALTER TABLE `professeur`
-  MODIFY `id_Prof` int(11) NOT NULL AUTO_INCREMENT;
-
-ALTER TABLE `cours`
-  MODIFY `id_Cour` int(11) NOT NULL AUTO_INCREMENT;
