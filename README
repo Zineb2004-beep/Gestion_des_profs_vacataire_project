@@ -1,0 +1,37 @@
+la creation de la base de donnees:
+
+CREATE TABLE `cours` (
+  `id_Cour` int(11) NOT NULL,
+  `intitule` varchar(40) NOT NULL,
+  `salle` varchar(30) NOT NULL
+);
+
+CREATE TABLE `professeur` (
+  `id_Prof` int(11) NOT NULL,
+  `nom` varchar(30) NOT NULL,
+  `prenom` varchar(30) NOT NULL,
+  `specialite` varchar(30) NOT NULL
+);
+
+CREATE TABLE `affectationcours` (
+  `prof_id` int(11) NOT NULL,
+  `cour_id` int(11) NOT NULL
+);
+ALTER TABLE `affectationcours`
+  ADD PRIMARY KEY (`prof_id`,`cour_id`),
+  ADD CONSTRAINT `cours_fk_1` FOREIGN KEY (`cour_id`) REFERENCES `cours` (`id_Cour`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `professeur_fk_1` FOREIGN KEY (`prof_id`) REFERENCES `professeur` (`id_Prof`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `cours`
+  ADD PRIMARY KEY (`id_Cour`),
+  ADD UNIQUE KEY `id_Cour` (`id_Cour`);
+
+ALTER TABLE `professeur`
+  ADD PRIMARY KEY (`id_Prof`),
+  ADD UNIQUE KEY `id_Prof` (`id_Prof`);
+
+ALTER TABLE `professeur`
+  MODIFY `id_Prof` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
+
+ALTER TABLE `cours`
+  MODIFY `id_Cour` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=40;
