@@ -1,4 +1,4 @@
-###Projet de gestion des professeurs vacataires
+##Projet de gestion des professeurs vacataires
 
 ## Description
 Ce projet est une application Java qui permet de gérer l'affectation des cours aux professeurs vacataires.  
@@ -21,7 +21,7 @@ L’objectif principal de ce projet est de développer une application de gestio
 Ce projet vise à améliorer l’efficacité du processus administratif et à réduire les erreurs liées à la planification des cours.
 
 ##Diagramme de classe 
-![Diagramme de casse](C:\Users\User\OneDrive\Desktop\gpvClasse.png)
+![Diagramme de casse](OneDrive\Desktop\gpvClasse.png)
 
 Professeur (id, nom, prénom, spécialité)
 Cours (id, intitule, salle)
