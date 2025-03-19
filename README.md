@@ -55,7 +55,6 @@ CREATE TABLE AffectationCours (
     FOREIGN KEY (professeur_id) REFERENCES Professeur(id) ON DELETE CASCADE,
     FOREIGN KEY (cours_id) REFERENCES Cours(id) ON DELETE CASCADE
 );
-`` ``` ``
 
 ## Architecture 
 
