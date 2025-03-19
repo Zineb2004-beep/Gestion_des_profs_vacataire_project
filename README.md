@@ -21,7 +21,7 @@ L’objectif principal de ce projet est de développer une application de gestio
 Ce projet vise à améliorer l’efficacité du processus administratif et à réduire les erreurs liées à la planification des cours.
 
 ##Diagramme de classe 
-![Diagramme de casse](OneDrive\Desktop\gpvClasse.png)
+![Diagramme de casse](gpvClasse.png)
 
 Professeur (id, nom, prénom, spécialité)
 Cours (id, intitule, salle)
