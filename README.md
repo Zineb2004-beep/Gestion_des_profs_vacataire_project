@@ -20,7 +20,7 @@ L’objectif principal de ce projet est de développer une application de gestio
  -Une interface intuitive et facile d'utilisation
 Ce projet vise à améliorer l’efficacité du processus administratif et à réduire les erreurs liées à la planification des cours.
 ## Diagramme de cas d'utilisation
-![Diagramme de cas d'utilisations ](gpvUseCase.png)
+![Diagramme de cas d'utilisations ](gpvUseCase1.png)
 
 ## Diagramme de classe 
 ![Diagramme de classe](gpvClasse.png)
