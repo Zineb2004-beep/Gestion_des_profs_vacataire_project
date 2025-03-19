@@ -60,8 +60,11 @@ CREATE TABLE AffectationCours (
 
 ## Technologies utilisées
 Java (Swing)
+
 MySQL (JDBC) Gérer par : phpMyAdmin
+
 Outils de développement : NetBeans (IDE Java)
+
 GitHub pour le versioning
  
 ## Démo vidéo 
