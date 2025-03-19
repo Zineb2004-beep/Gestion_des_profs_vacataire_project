@@ -27,11 +27,13 @@ Ce projet vise à améliorer l’efficacité du processus administratif et à r�
 
 ## Les tables
 Professeur (id, nom, prénom, spécialité)
+
 Cours (id, intitule, salle)
+
 AffectationCours (professeur_id, cours_id)
 
 ## La base de donnees avec MySQL
-** `` ```sql ``
+`` ```sql ``
 __La table Cours:
 CREATE TABLE Cours (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -53,7 +55,7 @@ CREATE TABLE AffectationCours (
     FOREIGN KEY (professeur_id) REFERENCES Professeur(id) ON DELETE CASCADE,
     FOREIGN KEY (cours_id) REFERENCES Cours(id) ON DELETE CASCADE
 );
-** `` ``` ``
+`` ``` ``
 
 ## Architecture 
 
