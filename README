@@ -1,4 +1,27 @@
-Projet de gestion des professeurs vacataires avec JAVA :
+###Projet de gestion des professeurs vacataires
+
+## Description
+Ce projet est une application Java qui permet de gérer l'affectation des cours aux professeurs vacataires.  
+L'interface utilisateur est développée avec **Swing**, et la base de données est gérée avec **MySQL**.
+
+## Problématique
+Dans les établissements scolaires et universitaires, la gestion de l’affectation des cours aux professeurs
+est souvent un processus complexe et chronophage. Le suivi des cours, l’organisation des emplois du temps
+et la gestion des ressources (salles, spécialités, etc.) sont des défis majeurs.
+L'absence d'un système informatisé peut entraîner des erreurs, des conflits d'horaires et une perte
+de temps dans la gestion administrative. Comment concevoir une application permettant d'automatiser
+et d’optimiser l’affectation des cours aux professeurs tout en assurant une gestion efficace et intuitive ?
+
+## Objectif
+L’objectif principal de ce projet est de développer une application de gestion des affectations de cours aux professeurs, permettant :
+ -L'ajout, la modification et la suppression des professeurs et des cours
+ -L'affectation des cours aux enseignants
+ -L'affichage des cours attribués à chaque professeur
+ -Une interface intuitive et facile d'utilisation
+Ce projet vise à améliorer l’efficacité du processus administratif et à réduire les erreurs liées à la planification des cours.
+
+##Diagramme de classe 
+![Diagramme de casse](C:\Users\User\OneDrive\Desktop\gpvClasse.png)
 
 Professeur (id, nom, prénom, spécialité)
 Cours (id, intitule, salle)
