@@ -57,6 +57,7 @@ CREATE TABLE AffectationCours (
 );
 ```
 ## Architecture 
+![Architecture](ArchiGPV.png)
 
 ## Technologies utilisées
 Java (Swing)
