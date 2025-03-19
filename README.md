@@ -1,4 +1,4 @@
-##Projet de gestion des professeurs vacataires
+### Projet de gestion des professeurs vacataires
 
 ## Description
 Ce projet est une application Java qui permet de gérer l'affectation des cours aux professeurs vacataires.  
@@ -20,19 +20,19 @@ L’objectif principal de ce projet est de développer une application de gestio
  -Une interface intuitive et facile d'utilisation
 Ce projet vise à améliorer l’efficacité du processus administratif et à réduire les erreurs liées à la planification des cours.
 
-##Diagramme de classe 
-![Diagramme de casse](gpvClasse.png)
+## Diagramme de classe 
+![Diagramme de classe](gpvClasse.png)
 
+## Diagramme de cas d'utilisation
+
+
+## Les tables
 Professeur (id, nom, prénom, spécialité)
 Cours (id, intitule, salle)
 AffectationCours (professeur_id, cours_id)
-Fonctionnalités : 
--Ajouter un professeur
--Affecter un cours à un professeur
--Filtrer par spécialité
--Rechercher un professeur par nom
 
-La base de donnees avec MySQL:
+## La base de donnees avec MySQL
+```sql
 __La table Cours:
 CREATE TABLE Cours (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -54,3 +54,9 @@ CREATE TABLE AffectationCours (
     FOREIGN KEY (professeur_id) REFERENCES Professeur(id) ON DELETE CASCADE,
     FOREIGN KEY (cours_id) REFERENCES Cours(id) ON DELETE CASCADE
 );
+
+## Technologies utilisées
+Java (Swing)
+MySQL (JDBC) Gérer par : phpMyAdmin
+Outils de développement : NetBeans (IDE Java)
+GitHub pour le versioning
