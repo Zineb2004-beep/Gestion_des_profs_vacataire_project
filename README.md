@@ -55,6 +55,14 @@ CREATE TABLE AffectationCours (
     FOREIGN KEY (professeur_id) REFERENCES Professeur(id) ON DELETE CASCADE,
     FOREIGN KEY (cours_id) REFERENCES Cours(id) ON DELETE CASCADE
 );
+__La table User:
+CREATE TABLE User (
+    login VARCHAR(255) PRIMARY KEY,
+    password VARCHAR(255) NOT NULL,
+    questionSeurit VARCHAR(255),
+    reponseSecurit VARCHAR(255),
+    email VARCHAR(255)
+);
 ```
 ## Architecture 
 ![Architecture](ArchiGPV.png)
