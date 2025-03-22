@@ -59,7 +59,7 @@ __La table User:
 CREATE TABLE User (
     login VARCHAR(255) PRIMARY KEY,
     password VARCHAR(255) NOT NULL,
-    questionSeurit VARCHAR(255),
+    questionSecurit VARCHAR(255),
     reponseSecurit VARCHAR(255),
     email VARCHAR(255)
 );
