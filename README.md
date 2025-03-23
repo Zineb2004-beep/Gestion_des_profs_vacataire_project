@@ -90,6 +90,7 @@ CREATE TABLE User (
 
 ## 🏛️ Architecture
 ![Architecture](Ressources/ArchiGPV.png)
+![Architecture](Ressources/La couche presentation.png)
 
 ## 🛠️ Technologies utilisées
 - **Langage** : Java (Swing)
