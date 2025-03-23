@@ -40,10 +40,10 @@ L’objectif principal de ce projet est de développer une application permettan
 Ce projet vise à améliorer l’efficacité du processus administratif et à réduire les erreurs liées à la planification.
 
 ## 📊 Diagramme de cas d'utilisation
-![Diagramme de cas d'utilisation](Ressources/diagrammesdecasd'utilisationgpv.png)
+![Diagramme de cas d'utilisation](Ressources/diagrammesDeCasUtilisationGPV.png)
 
 ## 📐 Diagramme de classes
-![Diagramme de classe](Ressources/diagrammedeclassesgpv.png)
+![Diagramme de classe](Ressources/diagrammeDeClassesGPV.png)
 
 ## 📖 Structure de la base de données
 
