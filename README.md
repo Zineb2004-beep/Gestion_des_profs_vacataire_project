@@ -102,7 +102,7 @@ CREATE TABLE User (
 
 
 ## 🎥 Démo vidéo
-👉 [Voir la démo](lien-vers-la-video)
+👉 [Voir la démo](Ressources/GPVDemoBidasZineb2)
 
 ---
 
