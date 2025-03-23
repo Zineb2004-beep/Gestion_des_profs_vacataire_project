@@ -102,7 +102,7 @@ CREATE TABLE User (
 
 
 ## 🎥 Démo vidéo
-👉 [Voir la démo](Ressources/gpvdemobidaszineb4_AAqQ9uRp.mp4)
+👉 [Voir la démo](gpvdemobidaszineb4.mp4)
 
 ---
 
