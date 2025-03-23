@@ -102,7 +102,7 @@ CREATE TABLE User (
 
 
 ## 🎥 Démo vidéo
-👉 [[Regarder la vidéo]([gpvdemobidaszineb4.mp4](https://github.com/user-attachments/assets/30a1642a-030e-4f21-922b-2f3c35a7d5e9))](https://github.com/user-attachments/assets/30a1642a-030e-4f21-922b-2f3c35a7d5e9)
+👉 https://github.com/user-attachments/assets/30a1642a-030e-4f21-922b-2f3c35a7d5e9
 
 ---
 
