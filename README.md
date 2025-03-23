@@ -100,19 +100,6 @@ CREATE TABLE User (
 
 ## 🚀 Installation et exécution
 
-1. **Cloner le dépôt** :
-```bash
-git clone https://github.com/votre-utilisateur/projet-gestion-professeurs.git
-cd projet-gestion-professeurs
-```
-
-2. **Configurer la base de données** :
-- Importer les tables MySQL ci-dessus dans phpMyAdmin.
-- Vérifier que les identifiants MySQL correspondent à ceux de la classe `Connexion`.
-
-3. **Exécuter l'application** :
-- Ouvrir le projet dans **NetBeans 8.0.2**.
-- Compiler et exécuter l'application.
 
 ## 🎥 Démo vidéo
 👉 [Voir la démo](lien-vers-la-video)
