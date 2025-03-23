@@ -1,6 +1,6 @@
 # 📚 Projet de gestion des professeurs vacataires
 
-![Logo de l'application](Ressources/logoGPV.png)
+![Logo de l'application](Ressources/GPVlogo.png)
 
 ## 📋 Sommaire
 
@@ -43,7 +43,7 @@ Ce projet vise à améliorer l’efficacité du processus administratif et à r�
 ![Diagramme de cas d'utilisation](Ressources/diagrammes de cas d'utilisation gpv.png)
 
 ## 📐 Diagramme de classes
-![Diagramme de classe](Ressources/diagrammes de classes gpv.png)
+![Diagramme de classe](Ressources/diagramme de classes gpv.png)
 
 ## 📖 Structure de la base de données
 
