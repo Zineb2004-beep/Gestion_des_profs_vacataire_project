@@ -102,7 +102,7 @@ CREATE TABLE User (
 👉 https://github.com/user-attachments/assets/30a1642a-030e-4f21-922b-2f3c35a7d5e9
 
 ## 🚀 Installation et exécution
-👉Regardez-vous ce video https://github.com/user-attachments/assets/9cc8b956-d19d-4077-9405-9e0f3378b5ad
+👉Regardez-vous ce video https://github.com/user-attachments/assets/56b4682a-2886-46fa-8dc7-ff29d6f010fd
 
 ---
 
