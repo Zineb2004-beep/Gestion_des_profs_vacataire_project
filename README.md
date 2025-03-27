@@ -12,8 +12,9 @@
 - [Structure de la base de données](#-structure-de-la-base-de-données)
 - [Architecture](#-architecture)
 - [Technologies utilisées](#-technologies-utilisées)
-- [Installation et exécution](#-installation-et-exécution)
 - [Démo vidéo](#-démo-vidéo)
+- [Installation et exécution](#-installation-et-exécution)
+
 
 
 ## 🗂️ Contexte
